@@ -14,7 +14,7 @@ spring:
     username: date_platform
     password: gxzd_date
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rdseymkium0m90g55fd7.mysql.cloud.echargenet.com:3306/analyze_platform?useUnicode=true&amp;characterEncoding=utf8&useSSL=false&amp;autoReconnect=true
+    url: jdbc:mysql://localhost:3306/analyze_platform?useUnicode=true&amp;characterEncoding=utf8&useSSL=false&amp;autoReconnect=true
     # 初始化时建立物理连接个数
     initialSize: 5
     # 最小连接池数量
