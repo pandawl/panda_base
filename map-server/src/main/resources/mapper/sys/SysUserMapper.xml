@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panda.pa.module.mapper.sys.SysUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.panda.pa.module.entity.sys.SysUser">
+        <id column="id" property="id" />
+        <result column="user_name" property="userName" />
+        <result column="user_rel_name" property="userRelName" />
+        <result column="user_pwd" property="userPwd" />
+        <result column="acc_tel" property="accTel" />
+        <result column="acc_email" property="accEmail" />
+        <result column="acc_phone" property="accPhone" />
+        <result column="acc_birthday" property="accBirthday" />
+        <result column="acc_sex" property="accSex" />
+        <result column="acc_err_log_num" property="accErrLogNum" />
+        <result column="acc_err_log_time" property="accErrLogTime" />
+        <result column="user_type" property="userType" />
+        <result column="user_source" property="userSource" />
+        <result column="ou_code" property="ouCode" />
+        <result column="ou_name" property="ouName" />
+        <result column="user_status" property="userStatus" />
+        <result column="remarks" property="remarks" />
+        <result column="del" property="del" />
+        <result column="created_by" property="createdBy" />
+        <result column="created_time" property="createdTime" />
+        <result column="updated_by" property="updatedBy" />
+        <result column="updated_time" property="updatedTime" />
+        <result column="last_login_time" property="lastLoginTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_name, user_rel_name, user_pwd, acc_tel, acc_email, acc_phone, acc_birthday, acc_sex, acc_err_log_num, acc_err_log_time, user_type, user_source, ou_code, ou_name, user_status, remarks, del, created_by, created_time, updated_by, updated_time, last_login_time
+    </sql>
+
+</mapper>

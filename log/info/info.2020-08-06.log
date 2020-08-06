@@ -1,0 +1,14 @@
+2020-08-06 16:56:59.587 zjwl [main] INFO  c.p.pa.base.generator.MpGenerator - 开始生成表sys_user实体类及接口
+2020-08-06 16:57:01.026 zjwl [main] INFO  c.p.pa.base.generator.MpGenerator - 生成表sys_user实体类及接口成功
+2020-08-06 16:57:01.027 zjwl [main] INFO  c.p.pa.base.generator.MpGenerator - 生成接口路径D:/map/generator/main/java ,xml路径D:/map/generator/main/resources
+2020-08-06 17:00:31.735 zjwl [main] INFO  c.p.pa.base.generator.MpGenerator - 开始生成表sys_user实体类及接口
+2020-08-06 17:00:32.698 zjwl [main] INFO  c.p.pa.base.generator.MpGenerator - 生成表sys_user实体类及接口成功
+2020-08-06 17:00:32.698 zjwl [main] INFO  c.p.pa.base.generator.MpGenerator - 生成接口路径D:/generator/main/java ,xml路径D:/generator/main/resources
+2020-08-06 17:07:13.562 zjwl [main] INFO  com.panda.pa.PaApplication - Starting PaApplication on LAPTOP-IQBUTT5V with PID 23432 (D:\idea\github\springboot-base\map-server\target\classes started by 不完整的旋律 in D:\idea\github\springboot-base)
+2020-08-06 17:07:13.566 zjwl [main] INFO  com.panda.pa.PaApplication - No active profile set, falling back to default profiles: default
+2020-08-06 17:07:13.653 zjwl [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b1176b: startup date [Thu Aug 06 17:07:13 GMT+08:00 2020]; root of context hierarchy
+2020-08-06 17:07:13.674 zjwl [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-08-06 17:07:15.575 zjwl [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d3b7f8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 17:07:15.849 zjwl [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
